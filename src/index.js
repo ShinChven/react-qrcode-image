@@ -1,5 +1,4 @@
-import QrCodeWithLogo from 'qr-code-with-logo';
-import React, { PureComponent } from 'react';
+import QrCodeWithLogo from "qr-code-with-logo";
 
 /**
  * 生成二维码的base64图片数据
@@ -20,20 +19,3 @@ export const toQRCodeImageData = async opts => {
   const imageData = canvas.toDataURL();
   return Promise.resolve(imageData);
 };
-
-export default class QRCodeImage extends PureComponent {
-  state = {
-    src: undefined,
-  };
-
-  componentDidMount() {
-    const { options = {} } = this.props;
-    toQRCodeImageData(options).then(src => {
-      this.setState({ src });
-    });
-  }
-
-  render() {
-    return <img {...this.props} alt="qr-code" src={this.state.src} />;
-  }
-}
