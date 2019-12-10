@@ -2,7 +2,7 @@
   "name": "react-qrcode-image",
   "version": "1.0.0",
   "description": "Extending qr-code-with-logo to export qrcode as base64 data and to be used as a component base on img tag not canvas.",
-  "main": "src/QRCodeImage.jsx",
+  "main": "src/index.js",
   "scripts": {
   },
   "keywords": [],
