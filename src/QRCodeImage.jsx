@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react';
 import {toQRCodeImageData} from "./index";
 
-
-
 export default class QRCodeImage extends PureComponent {
   state = {
     src: undefined,

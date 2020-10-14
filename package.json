@@ -1,13 +1,23 @@
 {
   "name": "react-qrcode-image",
-  "version": "1.0.0",
-  "description": "Extending qr-code-with-logo to export qrcode as base64 data and to be used as a component base on img tag not canvas.",
+  "version": "0.1.0",
+  "description": "Draw QRCode on img, center logo supported",
   "main": "src/index.js",
   "scripts": {},
-  "keywords": [],
+  "keywords": [
+    "react",
+    "qrcode",
+    "二维码",
+    "image",
+    "img",
+    "base64"
+  ],
   "author": {
     "name": "ShinChven ZHANG",
     "email": "shinchven@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/ShinChven/react-qrcode-image.git"
   },
   "license": "ISC",
   "dependencies": {
