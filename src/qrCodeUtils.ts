@@ -12,8 +12,8 @@ export interface QRCodeOptions {
 }
 
 /**
- * 生成二维码的base64图片数据
- * @param opts 二维码配置
+ * Generate a QR code image data in base64 format
+ * @param opts QR code configuration options
  * @returns {Promise<string>} Image base64 data
  */
 export const toQRCodeImageData = async (opts: QRCodeOptions): Promise<string> => {
